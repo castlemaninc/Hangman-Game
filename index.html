@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hangman!</title>
+
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  </head>
+
+  <body>
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"><img id="banner" src="assets/images/hangman_title.png"></div>
+        <div class="col-md-4"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 text-center"><br><br><p>You are the Black Knight! <br> Defend the path by guessing the word!</p><p id="hiddenWord"></p><br><button id="newGame" type="button" class="btn btn-danger">Click Here for New Word!</button><br><br><p>Letters Guessed: <br><span id="lettersGuessed"></span><br><br><span id="winner"></span></p><p>Appendages Remaining: <span id="guessesRemaining"></span></p><p>Victories: <span id="victories"></span></p></div>
+        <div class="col-md-4"><img id="hangman" src="assets/images/black-knight-0.png"></div>
+        <div class="col-md-4"></div>
+      </div>        
+
+      <div class="row">
+        <div class="col-md-5"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-3"></div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+      </div>
+
+      
+      
+            
+    </div>
+
+    <!-- jQuery -->
+    <!-- <script src="//code.jquery.com/jquery.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+     <!-- <script src="Hello World"></script> -->
+     <script src="assets/javascript/game.js"></script>
+  </body>
+</html>
+
+
