@@ -6,6 +6,7 @@
 	var hiddenLetters = [];
 	var guess = "";
 	var letter = "";
+	var numMisses = 0;
 	var numGuesses = 0;
 	var guessesRemaining = 4;
 	var lettersGuessed = [];
