@@ -1,7 +1,7 @@
 # HW - Hangman-Game
 
 ## Live Link to hosted game on GitHub Pages 
- - www.example.com
+ - https://castlemaninc.github.io/Hangman-Game/
 
 ## How to play this Monty Python inspired Hangman
 
@@ -26,7 +26,7 @@
 
 ## Code Explanation 
 - I used arrays for images and a list of words
-- 
+
 
 
 
