@@ -18,6 +18,11 @@
 		function isInArray(value, array) {
 		  return array.indexOf(value) > -1;
 		}
+
+	// 
+		function restart() {
+    			setTimeout(function(){ newGame(); }, 3000);
+			}
 	
 	var newGame = function(){
 		
@@ -125,6 +130,7 @@
 			console.log("Winner!");
 			document.getElementById("winner").innerHTML = "Victory! Path defended!";
 			wins++;
+			restart();
 		}
 
 		document.getElementById('victories').innerHTML = wins;
@@ -132,7 +138,8 @@
 		// Player Loses 
 		// If number of misses equals or exceeds the number of hangman images the game is over. 
 		if (numMisses >= images.length -1){
-			console.log("Game Over");			
+			console.log("Game Over");
+			restart();			
 		}
 
 
